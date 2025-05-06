@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marlon Moraes - Desenvolvedor Front-End</title>
+  <meta name="description"
+    content="Portfólio de Marlon Moraes, Desenvolvedor Front-End especialista em criar soluções web modernas e responsivas.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!-- AOS Library -->
+  <!--<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">-->
+  <link rel="stylesheet" href="aos/aos.css">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon (optional) -->
+  <!-- <link rel="icon" href="images/favicon.ico" type="image/x-icon"> -->
+</head>
+
+<body>
+  <header>
+    <nav class="container">
+      <a href="#home" class="logo">Marlon Moraes</a>
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre Mim</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <div class="nav-extras">
+        <button id="darkModeToggle" aria-label="Alternar modo claro/escuro">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24"
+            class="icon-sun">
+            <path
+              d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5h2.25a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.166 7.758a.75.75 0 001.06-1.06L5.634 5.106a.75.75 0 00-1.06 1.06L6.166 7.758z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24"
+            class="icon-moon">
+            <path fill-rule="evenodd"
+              d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 003.463-.69.75.75 0 01.981.98 10.503 10.503 0 01-9.694 6.46c-5.799 0-10.5-4.701-10.5-10.5 0-3.51 1.713-6.625 4.332-8.518a.75.75 0 01.819.162z"
+              clip-rule="evenodd" />
+          </svg>
+        </button>
+        <button id="menuToggle" class="hamburger-menu" aria-label="Abrir menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero-section">
+      <div class="container hero-content" data-aos="fade-up">
+        <div class="hero-text">
+          <h1>Marlon Moraes</h1>
+          <h2>Desenvolvedor Front-End</h2>
+          <p>Transformando ideias em experiências digitais incríveis.</p>
+          <a href="#projetos" class="btn btn-primary">Veja Meu Trabalho</a>
+        </div>
+        <div class="hero-image" data-aos="fade-left" data-aos-delay="200">
+          <img src="images/marlon_transp.png"
+            alt="Marlon Moraes - Desenvolvedor Front-End" >
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="container section-padding">
+      <h2 data-aos="fade-up">Sobre Mim</h2>
+      <div class="sobre-content" data-aos="fade-up" data-aos-delay="100">
+        <div class="filosofia">
+          <h3>Minha Filosofia</h3>
+          <p>Acredito que um bom projeto não é apenas uma mistura inteligente de estilo, forma e função, mas uma forma
+            de contar histórias. Cada detalhe, cada escolha de design têm um propósito maior: conectar pessoas e
+            resolver problemas. Meu objetivo é criar soluções que não apenas funcionem bem, mas que também transmitam
+            algo significativo, trazendo uma experiência que ressoe com os usuários. Desenvolver software é, para mim,
+            uma maneira de contribuir para o progresso, de deixar uma marca e de contar histórias que inspiram e
+            conectam.</p>
+        </div>
+        <div class="insight-quote" data-aos="fade-left" data-aos-delay="200">
+          <img src="images/wireframes-placeholder.jpg" alt="Ilustração de uma landing page com wireframes"
+            class="sobre-image">
+          <blockquote>
+            "Cada linha de código, cada funcionalidade, cada interface contribui para a história do projeto. Juntas,
+            elas constroem uma narrativa que vai além da técnica, transformando a experiência do usuário em algo
+            significativo."
+            <cite>- Marlon Moraes</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="container section-padding">
+      <h2 data-aos="fade-up">Habilidades</h2>
+      <div class="habilidades-grid">
+        <div class="habilidade-item" data-aos="fade-up" data-aos-delay="100">
+          <span class="habilidade-icon">🎨</span> <!-- Replace with SVG icon -->
+          <h3>Desenvolvimento Front-End</h3>
+          <p>HTML5, CSS3, JavaScript, Tailwind CSS</p>
+        </div>
+        <div class="habilidade-item" data-aos="fade-up" data-aos-delay="150">
+          <span class="habilidade-icon">📱</span> <!-- Replace with SVG icon -->
+          <h3>Desenvolvimento Responsivo</h3>
+          <p>Layouts adaptáveis para todos os dispositivos.</p>
+        </div>
+        <div class="habilidade-item" data-aos="fade-up" data-aos-delay="200">
+          <span class="habilidade-icon">📄</span> <!-- Replace with SVG icon -->
+          <h3>Criação de Landing Pages</h3>
+          <p>Páginas otimizadas para conversão.</p>
+        </div>
+        <div class="habilidade-item" data-aos="fade-up" data-aos-delay="250">
+          <span class="habilidade-icon">🔧</span> <!-- Replace with SVG icon -->
+          <h3>Git e GitHub</h3>
+          <p>Controle de versão e colaboração.</p>
+        </div>
+        <div class="habilidade-item" data-aos="fade-up" data-aos-delay="300">
+          <span class="habilidade-icon">🤝</span> <!-- Replace with SVG icon -->
+          <h3>Ferramentas de Colaboração</h3>
+          <p>Comunicação eficaz em equipe.</p>
+        </div>
+        <div class="habilidade-item" data-aos="fade-up" data-aos-delay="350">
+          <span class="habilidade-icon">💡</span> <!-- Replace with SVG icon -->
+          <h3>Resolução de Problemas</h3>
+          <p>Análise e solução de desafios técnicos.</p>
+        </div>
+        <div class="habilidade-item" data-aos="fade-up" data-aos-delay="400">
+          <span class="habilidade-icon">🚀</span> <!-- Replace with SVG icon -->
+          <h3>Aprendizado Rápido</h3>
+          <p>Adaptação a novas tecnologias.</p>
+        </div>
+        <div class="habilidade-item" data-aos="fade-up" data-aos-delay="450">
+          <span class="habilidade-icon">👥</span> <!-- Replace with SVG icon -->
+          <h3>Trabalho em Equipe</h3>
+          <p>Proatividade e colaboração.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiencia" class="container section-padding">
+      <h2 data-aos="fade-up">Experiência Profissional</h2>
+      <div class="timeline">
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-content">
+            <h3>Desenvolvedor Front-End</h3>
+            <span class="timeline-date">Fev/2024 - Abril/2025</span>
+            <p>Criação de soluções responsivas (HTML5, CSS3, JavaScript, Tailwind CSS). Especialista em landing pages
+              otimizadas. Colaboração multidisciplinar para UX. Foco na adaptação de designs para diferentes
+              dispositivos.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="timeline-content">
+            <h3>Estagiário de TI</h3>
+            <span class="timeline-date">2022 - 2023</span>
+            <p>Participação em projetos de desenvolvimento. Desenvolvimento e manutenção de sistemas, novos recursos e
+              correção de bugs. Atendimento ao cliente e resolução de dúvidas técnicas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="formacao" class="container section-padding">
+      <h2 data-aos="fade-up">Minha Formação</h2>
+      <div class="formacao-grid">
+        <div class="formacao-item" data-aos="fade-up" data-aos-delay="100">
+          <h3>Engenharia da Computação</h3>
+          <p>Faculdade Santa Lúcia de Mogi Mirim</p>
+          <span class="formacao-date">2025 - Atual</span>
+        </div>
+        <div class="formacao-item" data-aos="fade-up" data-aos-delay="200">
+          <h3>Técnico em Desenvolvimento de Sistemas</h3>
+          <p>Etec Pedro Ferreira Alves - Mogi Mirim</p>
+          <span class="formacao-date">2022 - 2024</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="container section-padding">
+      <h2 data-aos="fade-up">Projetos Recentes</h2>
+      <div class="projeto-destaque" data-aos="zoom-in">
+        <img src="images/nubank.png" class="w-32" alt="Imagem do projeto Nubak">
+        <div class="projeto-info">
+          <h3>Campanha Nubank</h3>
+          <p>Landing page para o Nubank.</p>
+          <a href="https://nubank.hlp.polgo.online" target="_blank" rel="noopener noreferrer"
+            class="btn">Visitar Projeto</a>
+        </div>
+      </div>
+
+      <div class="projeto-destaque" data-aos="zoom-in">
+        <img src="images/linkesporte.png" alt="Imagem do projeto Link Sport Clube">
+        <div class="projeto-info">
+          <h3>Link Sport Clube</h3>
+          <p>Landing page promocional para o Link Sport Clube.</p>
+          <a href="https://linksportclubvocedeiphone16.com/" target="_blank" rel="noopener noreferrer"
+            class="btn">Visitar Projeto</a>
+        </div>
+      </div>
+      <!-- AOS Library visualization from image prompt -->
+      <div class="aos-example" data-aos="fade-up" data-aos-delay="200">
+        <h3>Animações com AOS</h3>
+        <p>Este site utiliza a biblioteca <strong>Animate On Scroll (AOS)</strong> para efeitos de rolagem dinâmicos,
+          como o nome da biblioteca que apareceu na imagem que você enviou no prompt.</p>
+        <div class="aos-visual-placeholder">
+          AOS <br> Animate On Scroll Library <br> SCROLL DOWN
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="container section-padding">
+      <h2 data-aos="fade-up">Vamos Conversar?</h2>
+      <form id="contactForm" class="contact-form" data-aos="fade-up" data-aos-delay="100"
+        action="https://formspree.io/f/mkgwdeoo" method="POST">
+
+        <div class="form-group">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Mensagem:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <div class="form-group">
+          <!-- Opcional: Campo Honeypot para spam básico -->
+          <input type="text" name="_gotcha" style="display:none">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+      </form>
+      <div class="social-links" data-aos="fade-up" data-aos-delay="200">
+        <p>Ou me encontre nas redes:</p>
+        <a href="https://www.linkedin.com/in/marlon-appolinario-moraes/" target="_blank" rel="noopener noreferrer"
+          aria-label="LinkedIn de Marlon Moraes">LinkedIn</a>
+        <a href="https://github.com/M4rlonapp" target="_blank" rel="noopener noreferrer"
+          aria-label="GitHub de Marlon Moraes">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <Inspirado>© <span id="currentYear"></span> Marlon Moraes. Todos os direitos reservados. || <a href="https://www.marlon.app.br/" target="_blank" rel="noopener noreferrer">marlon.app.br</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- AOS JS -->
+  <!--<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>-->
+  <script src="aos/aos.js"></script>
+  <!-- Main JS -->
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>
